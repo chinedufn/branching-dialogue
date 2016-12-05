@@ -17,8 +17,8 @@ Conversations are directed graphs are stored as `JSON`
 
 ```json
 {
-  dialogue: {
-    1: {
+  "dialogue": {
+    "1": {
       "text": "I'm doing fantastic! Want to get some dinner?",
       "responses": [
         {
@@ -27,34 +27,34 @@ Conversations are directed graphs are stored as `JSON`
         }
       ]
     },
-    2: {
+    "2": {
       "text": "Hey how are you?",
       "responses": [
         {
-          next: 1,
-          reply: 'Great how are you?'
+          "next": 1,
+          "reply": "Great how are you?"
         },
         {
-          next: 3,
-          reply: "Not so good :("
+          "next": 3,
+          "reply": "Not so good :("
         }
       ]
     },
-    3: {
+    "3": {
       "text": "Oh no, do you need anything from me?",
       "responses": [
         {
-          next: 5,
-          reply: "Nah, I'm alright thank you."
+          "next": 5,
+          "reply": "Nah, I'm alright thank you."
         }
       ]
     },
-    4: {
-      action: 'go-to-dinner',
+    "4": {
+      "action": "go-to-dinner",
       "text": "Sounds great!"
     },
-    5: {
-      action: null,
+    "5": {
+      "action": null,
       "text": "Alright, well feel better."
     }
   },

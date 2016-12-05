@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/chinedufn/branching-dialogue/issues"
   },
-  "homepage": "https://github.com/chinedufn/branching-dialogue#readme"
+  "homepage": "https://github.com/chinedufn/branching-dialogue#readme",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  }
 }
