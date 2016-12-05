@@ -1,0 +1,27 @@
+{
+  "name": "branching-dialogue",
+  "version": "0.0.1",
+  "description": "A stateless API for modeling branching dialogue in role-playing games",
+  "main": "src/branching-dialogue.js",
+  "scripts": {
+    "test": "standard && node test/branching-dialogue.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/branching-dialogue.git"
+  },
+  "keywords": [
+    "branching",
+    "dialogue",
+    "rpg",
+    "game",
+    "npc",
+    "chat"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/branching-dialogue/issues"
+  },
+  "homepage": "https://github.com/chinedufn/branching-dialogue#readme"
+}
