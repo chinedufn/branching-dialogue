@@ -5,6 +5,8 @@ branching-dialogue [![npm version](https://badge.fury.io/js/branching-dialogue.s
 
 ## Background / Initial Motivation
 
+The initial motivation for this library was to power branching dialogue with npc's in a browser game.
+
 ## To Install
 
 ```sh
