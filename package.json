@@ -1,6 +1,6 @@
 {
   "name": "branching-dialogue",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A stateless API for modeling branching dialogue in role-playing games",
   "main": "src/branching-dialogue.js",
   "scripts": {
