@@ -1,0 +1,44 @@
+{
+  "dialogue": {
+    "1": {
+      "text": "Hey, how are you?",
+      "responses": [
+        {
+          "next": "2",
+          "reply": "Good and you?"
+        },
+        {
+          "next": "2",
+          "reply": "I'm doing swell, and yourself?"
+        }
+      ]
+    },
+    "2": {
+      "text": "I'm great, thanks! What did you eat for dinner?",
+      "responses": [
+        {
+          "next": "3",
+          "reply": "Mmm, some tasty Avacado"
+        },
+        {
+          "next": "4",
+          "reply": "Mmm, some tasty Rice"
+        }
+      ]
+    },
+    "3": {
+      "action": null,
+      "text": "Avocado for dinner?? Disgusting! Go away!"
+    },
+    "4": {
+      "action": "receive-gift",
+      "text": "Rice for dinner?? Yum!! Here take this gift!"
+    }
+  },
+  "start": [
+    {
+      "dialogueId": "1",
+      "if": "true"
+    }
+  ]
+}

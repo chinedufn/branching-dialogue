@@ -1,12 +1,17 @@
 // work in progress...
 
-module.exports = branchingDialogue
-
-function branchingDialogue (dialogue) {
+module.exports = {
+  get: getDialogue
 }
 
-// verbal-compare .. compare values using a verbal DSL
-// pass in comparison 'numRats > 2'
+function getDialogue (convo, dialogueId) {
+  return convo.dialogue[dialogueId]
+}
+
+// TODO: Write other sister modules
+
+// verbal-compare .. compare values using a comparison DSL
+// pass in comparison 'numRats > 2 AND numBears < 5'
 // pass in dictionary.. rats === 'foo.bar.property'
 // pass in data.. {foo: {bar: {property: 3}}}
 
