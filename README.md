@@ -100,7 +100,8 @@ if (nextText.action === 'go-to-dinner') {
 
 ## TODO:
 
-- [ ] Implement the module
+- [ ] Allow dialogue with no response, only a continue button
+  - Useful for splitting up longer monologues
 - [ ] Figure out API for conditional start / responses
 
 ## API
